@@ -1,0 +1,97 @@
+# --- Common ---
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# --- Node.js / React ---
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build output
+build/
+dist/
+
+# Cache directories
+.cache/
+*.cache
+
+# Dependency directories
+jspm_packages/
+
+# Lockfiles (depending on your package manager)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Test coverage
+coverage/
+
+# ESLint and Prettier cache
+.eslintcache
+.prettiercache
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor-specific directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# --- Django ---
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Django specific
+*.log
+staticfiles/
+media/
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Migrations
+**/migrations/
+
+# Local environment files
+.env
+*.env
+
+# Pytest and Coverage reports
+.coverage
+*.cover
+coverage.xml
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# --- Additional ---
+# Ignore OS-generated files (Windows/Mac)
+*.bak
+*.swp
+*~
